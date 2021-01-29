@@ -13,3 +13,4 @@ Zen of Python
 11.
 12.
 13.
+14.Simple is better than complex.
