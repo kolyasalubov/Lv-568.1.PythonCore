@@ -16,8 +16,7 @@ Zen of Python
 14.Simple is better than complex.
 16.Although never is often better tnan *rightn* now.
 17.If the implementation is hard to explain, it's a bad idea.
-<<<<<<< HEAD
-26.Readability counts.
-=======
 20. Beautiful is better than ugly.
->>>>>>> Matlakhov_Dmitriy
+26.Readability counts.
+
+
