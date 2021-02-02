@@ -3,14 +3,17 @@ Zen of Python
 1.
 2.Explicit is better than implicit.
 3.Simple is better than complex.
-4.
-5.
-6.
-7.
+4.Complex is better than complicated.
+5.Flat is better than nested.
+6.Sparse is better than dense.
+7.Readability counts.
 8.Special cases aren't special enough to break the rules.
-9.
-10.
-11.
-12.
+9.Although practicality beats purity.
+10.Errors should never pass silently.
+11.Unless explicitly silenced.\
+12.Although practicality beats purity.
 13.There should be one—and preferably only one—obvious way to do it.
+14.Simple is better than complex.
+16.Although never is often better tnan *rightn* now.
+17.If the implementation is hard to explain, it's a bad idea.
 26.Readability counts.
