@@ -14,11 +14,11 @@ Zen of Python
 12.Although practicality beats purity.
 13.There should be one—and preferably only one—obvious way to do it.
 14.Simple is better than complex.
-15.Now is better than never.
-16.Although never is often better tnen right now.
+15.,c
+16.Although never is often better than right now.
 17.If the implementation is hard to explain, it's a bad idea.
 19.Namespaces are one honking great idea -- let's do more of those!
 20. Beautiful is better than ugly.
 21.Explicit is better than implicit.
-22.Now is better than never.
+22.Simple is better than complex.
 26.Readability counts.
