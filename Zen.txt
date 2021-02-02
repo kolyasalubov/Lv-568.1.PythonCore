@@ -13,3 +13,4 @@ Zen of Python
 11.
 12.
 13.There should be one—and preferably only one—obvious way to do it.
+21.Explicit is better than implicit.
