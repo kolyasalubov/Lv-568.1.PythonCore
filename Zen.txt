@@ -1,4 +1,4 @@
-Zen of Python
+﻿Zen of Python
 
 1.Beautiful is better than ugly.
 2.Explicit is better than implicit.
@@ -24,3 +24,4 @@ Zen of Python
 22.Simple is better than complex.
 23.Although practicality beats purity.
 26.Readability counts.
+27.Complex is better than complicated.
