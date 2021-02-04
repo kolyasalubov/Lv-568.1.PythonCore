@@ -24,4 +24,4 @@
 22.Simple is better than complex.
 23.Although practicality beats purity.
 26.Readability counts.
-27.Complex is better than complicated.
+27.Complex is better than complicated...
