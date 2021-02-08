@@ -8,3 +8,7 @@ count_is_in_string = zen_python.count("is")
 print(f"The number of words 'better' in zen of Python is {count_better_in_string}")
 print(f"The number of words 'never' in zen of Python is {count_never_in_string}")
 print(f"The number of words 'is' in zen of Python is {count_is_in_string}")
+
+
+print(zen_python.upper())
+print(zen_python.replace('i','&'))
