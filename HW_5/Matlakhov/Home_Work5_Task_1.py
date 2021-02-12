@@ -1,22 +1,24 @@
-# ######## Изменение типа данных #############
-# int_lst = [i for i in range(int(input()))]
-# float_lst = [float(x) for x in int_lst]
-# print(float_lst)
-# ##########
-# int_lst = []
-# x = int(input("Вводи значение листа x=",))
-# int_lst.append(x)
-# float_lst = [float(x) for x in int_lst]
-# print(float_lst)
-
-################
-a = []
+x = int(input("Сколько эллементов будет: "))
+l = []
 i = 0
-while i < 5:
-    x = int(input("Введи целое число списка: "))
-    a.append(x)
-    print(a)
+while i < x:
+    a = int(input("Введи следующее число: "))
+    l.append(a)
     i += 1
-print("Целочисленный список", a)
-b = [float(x) for x in a]
-print("Список с плавающим знаком", b)
+print(l)
+a, d, c = [], [], []
+i = 0
+for i in l:
+    if i % 2 == 0:
+        a.append(i)
+    else:
+        if i % 3 == 0:
+            d.append(i)
+            i += 1
+        else:
+            c.append(i)
+
+            i += 1
+print("Числа которые делятся на 2", a)
+print("Числа которые делятся на 3", d)
+print("Числа которые не делятся на 2 и 3", c)
