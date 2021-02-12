@@ -1,3 +1,3 @@
 def calculate_of_characters(string):
-    string = string.replace(' ', '')
-    print(len(str(string)))
+    string_1 = string.replace(' ', '')
+    print(len(str(string_1)))
