@@ -1,14 +1,13 @@
-import re
-password = input("Enter your password: ")
-if re.findall("[a-z]", password) == []:
-    print("At least 1 letter between [a-z]")
-elif re.findall("[A-Z]", password) == []:
-    print("At least 1 letter between [A-Z]")
-elif re.findall("\d", password) == []:
-    print("At least 1 number between [0-9]")
-elif re.findall("[$ # @]", password) == []:
-    print("At least 1 character from [$#@]")
-elif len(password) <= 6 or len(password) >= 16:
-    print("Minimum length 6 characters and maximum length 16 characters")
+import calculator
+
+print("Hello, what is your figure?\n a - rectangle\n b - triangle\n c - circle")
+figure = input("Enter: ").lower()
+
+if figure == "a" or figure == "rectangle":
+    print("Square of ​​a rectangle =", calculator.square_rectangle(int(input("Enter the smaller side : ")), int(input("Enter the larger side : "))))
+elif figure == "b" or figure == "triangle":
+    print("Square of ​​a triangle =", calculator.square_triangle(int(input("Enter one side : ")), int(input("Enter hight : "))))
+elif figure == "c" or figure == "circle":
+    print("Square of ​​a circle =", calculator.square_circle(int(input("Enter the radius : "))))
 else:
-    print("Your password is good")
+    print("Error, please try again")
