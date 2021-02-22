@@ -1,4 +1,4 @@
-import HW7_Task_2_1
+import HW7_Task_1_1
 
 print('''The square of ​​which figure you want to count?
 1 - rectangle
