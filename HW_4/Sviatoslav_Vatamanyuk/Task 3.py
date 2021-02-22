@@ -6,7 +6,7 @@ if length<0:
     print("enter correct number")
 else:
     while itteration < length:
-        print(n1)
+        print(n1, end=" ")
         nn = n1 + n2
         n1 = n2
         n2 = nn
